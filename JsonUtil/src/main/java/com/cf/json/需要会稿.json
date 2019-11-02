@@ -1,0 +1,242 @@
+{
+        "attached_process_instance_ids": [],
+        "biz_action": "NONE",
+        "business_id": "201911011604000199081",
+        "cc_userids": [
+            "031928461537738628",
+            "031226653126153773",
+            "142905596223887987",
+            "2811090058800301",
+            "161210562623413664"
+        ],
+        "create_time": "2019-11-01 16:04:20",
+        "finish_time": "2019-11-01 16:08:01",
+        "form_component_values": [
+            {
+                "component_type": "TextField",
+                "id": "TextField-ISFFIRRD",
+                "name": "联合行文单位名称",
+                "value": "综合监督局"
+            },
+            {
+                "component_type": "TextField",
+                "id": "TextField-ISFFIRRE",
+                "name": "发文字号",
+                "value": "鄂卫监局发〔2019〕8"
+            },
+            {
+                "component_type": "DDSelectField",
+                "ext_value": "{\"key\":\"option_0\"}",
+                "id": "DDSelectField-K1W3RY0F",
+                "name": "密级",
+                "value": "秘密"
+            },
+            {
+                "component_type": "DDSelectField",
+                "ext_value": "{\"key\":\"option_2\"}",
+                "id": "DDSelectField-K1K3YC9N",
+                "name": "紧急程度",
+                "value": "平急"
+            },
+            {
+                "component_type": "TextField",
+                "id": "TextField-ISFFIRRG",
+                "name": "文件标题",
+                "value": "无证行医"
+            },
+            {
+                "component_type": "TextField",
+                "id": "TextField-ISFFIRRH",
+                "name": "主送单位",
+                "value": "卫生计生委"
+            },
+            {
+                "component_type": "TextField",
+                "id": "TextField-K1JD33Q5",
+                "name": "抄送单位",
+                "value": "卫生健康委"
+            },
+            {
+                "component_type": "TextField",
+                "id": "TextField-K1JD33Q6",
+                "name": "主题词",
+                "value": "测试"
+            },
+            {
+                "component_type": "TextField",
+                "id": "TextField-K237UBD3",
+                "name": "拟稿人",
+                "value": "监督"
+            },
+            {
+                "component_type": "DDDateField",
+                "id": "DDDateField-K237UBD4",
+                "name": "拟稿日期",
+                "value": "2019-10-01"
+            },
+            {
+                "component_type": "TextField",
+                "id": "TextField-K1JD33Q8",
+                "name": "主办处室意见",
+                "value": "null"
+            },
+            {
+                "component_type": "DDSelectField",
+                "ext_value": "{\"key\":\"option_0\"}",
+                "id": "DDSelectField-K1Z0IDKH",
+                "name": "会稿",
+                "value": "需要其他处室会稿"
+            },
+            {
+                "component_type": "TextField",
+                "id": "TextField-K1JD33Q9",
+                "name": "会稿处室意见",
+                "value": "null"
+            },
+            {
+                "component_type": "TextField",
+                "id": "TextField-K1JD33QA",
+                "name": "局办公室核稿意见",
+                "value": "null"
+            },
+            {
+                "component_type": "TextField",
+                "id": "TextField-K1JD33QB",
+                "name": "分管领导审批意见",
+                "value": "null"
+            },
+            {
+                "component_type": "TextField",
+                "id": "TextField-K20EE8VC",
+                "name": "局领导审批意见",
+                "value": "null"
+            },
+            {
+                "component_type": "TextField",
+                "id": "TextField-K1JD33QC",
+                "name": "会签单位意见",
+                "value": "null"
+            },
+            {
+                "component_type": "TextField",
+                "id": "TextField-K1W4AY1V",
+                "name": "校对人",
+                "value": "李进"
+            },
+            {
+                "component_type": "NumberField",
+                "id": "NumberField-K1W4AY1W",
+                "name": "印数",
+                "value": "1"
+            },
+            {
+                "component_type": "DDAttachment",
+                "id": "DDAttachment-K243SZ49",
+                "name": "正文内容",
+                "value": "[{\"uploadSize\":24830,\"spaceId\":1856950597,\"fileName\":\"OA附件(6)(1)(2)(2)(1)(1)(1)(1)(1)(1)(1)(1)(2)(1)(1)(1)(1)(1)(1)(1)(1)(1)(1)(1)(2)(1).docx\",\"fileSize\":13251,\"fileType\":\"docx\",\"fileId\":\"9677116721\"}]"
+            }
+        ],
+        "operation_records": [
+            {
+                "date": "2019-11-01 16:04:19",
+                "operation_result": "NONE",
+                "operation_type": "START_PROCESS_INSTANCE",
+                "userid": "2455434225856653"
+            },
+            {
+                "date": "2019-11-01 16:04:20",
+                "operation_result": "NONE",
+                "operation_type": "NONE",
+                "remark": "",
+                "userid": "2455434225856653"
+            },
+            {
+                "date": "2019-11-01 16:04:45",
+                "operation_result": "AGREE",
+                "operation_type": "EXECUTE_TASK_NORMAL",
+                "remark": "请局办核稿",
+                "userid": "2811090058800301"
+            },
+            {
+                "date": "2019-11-01 16:05:52",
+                "operation_result": "AGREE",
+                "operation_type": "EXECUTE_TASK_NORMAL",
+                "remark": "合理",
+                "userid": "142905596223887987"
+            },
+            {
+                "date": "2019-11-01 16:06:58",
+                "operation_result": "AGREE",
+                "operation_type": "EXECUTE_TASK_NORMAL",
+                "remark": "呈钱局、赵局阅示",
+                "userid": "161210562623413664"
+            },
+            {
+                "date": "2019-11-01 16:07:44",
+                "operation_result": "AGREE",
+                "operation_type": "EXECUTE_TASK_NORMAL",
+                "remark": "拟同意",
+                "userid": "031226653126153773"
+            },
+            {
+                "date": "2019-11-01 16:08:01",
+                "operation_result": "AGREE",
+                "operation_type": "EXECUTE_TASK_NORMAL",
+                "remark": "同意",
+                "userid": "031928461537738628"
+            }
+        ],
+        "originator_dept_id": "139878981",
+        "originator_dept_name": "卫生监督信息与宣传中心",
+        "originator_userid": "2455434225856653",
+        "result": "agree",
+        "status": "COMPLETED",
+        "tasks": [
+            {
+                "create_time": "2019-11-01 16:04:20",
+                "finish_time": "2019-11-01 16:04:45",
+                "task_result": "AGREE",
+                "task_status": "COMPLETED",
+                "taskid": "62583749991",
+                "url": "aflow.dingtalk.com?procInsId=ebb4cba7-693e-4e37-b2c3-03e7b23a3710&taskId=62583749991&businessId=201911011604000199081",
+                "userid": "2811090058800301"
+            },
+            {
+                "create_time": "2019-11-01 16:04:45",
+                "finish_time": "2019-11-01 16:05:52",
+                "task_result": "AGREE",
+                "task_status": "COMPLETED",
+                "taskid": "62584738252",
+                "url": "aflow.dingtalk.com?procInsId=ebb4cba7-693e-4e37-b2c3-03e7b23a3710&taskId=62584738252&businessId=201911011604000199081",
+                "userid": "142905596223887987"
+            },
+            {
+                "create_time": "2019-11-01 16:06:58",
+                "finish_time": "2019-11-01 16:07:44",
+                "task_result": "AGREE",
+                "task_status": "COMPLETED",
+                "taskid": "62593759456",
+                "url": "aflow.dingtalk.com?procInsId=ebb4cba7-693e-4e37-b2c3-03e7b23a3710&taskId=62593759456&businessId=201911011604000199081",
+                "userid": "031226653126153773"
+            },
+            {
+                "create_time": "2019-11-01 16:05:52",
+                "finish_time": "2019-11-01 16:06:58",
+                "task_result": "AGREE",
+                "task_status": "COMPLETED",
+                "taskid": "62593767332",
+                "url": "aflow.dingtalk.com?procInsId=ebb4cba7-693e-4e37-b2c3-03e7b23a3710&taskId=62593767332&businessId=201911011604000199081",
+                "userid": "161210562623413664"
+            },
+            {
+                "create_time": "2019-11-01 16:07:44",
+                "finish_time": "2019-11-01 16:08:01",
+                "task_result": "AGREE",
+                "task_status": "COMPLETED",
+                "taskid": "62593823198",
+                "url": "aflow.dingtalk.com?procInsId=ebb4cba7-693e-4e37-b2c3-03e7b23a3710&taskId=62593823198&businessId=201911011604000199081",
+                "userid": "031928461537738628"
+            }
+        ],
+        "title": "李进提交的发文"
+    }

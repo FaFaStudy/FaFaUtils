@@ -4,8 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.cf.json.entity.Ding;
 import com.cf.json.entity.Document;
-import com.cf.json.entity.Operator;
-import org.springframework.context.annotation.Bean;
+import com.cf.json.entity.Operation;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -36,7 +35,7 @@ public class JsonUtil {
         return ding;
     }
 
-    public List<Operator> json2(String json){
+    public List<Operation> json2(String json){
         JSONObject obj1 = JSONObject.parseObject(json);
         System.out.println(obj1.toJSONString());
 
@@ -46,7 +45,7 @@ public class JsonUtil {
         JSONObject obj2 = JSONObject.parseObject(process_instance);
         String message=obj2.getString("operation_records");
         System.out.println(message);
-        List<Operator> operates = JSON.parseArray(message, Operator.class);
+        List<Operation> operates = JSON.parseArray(message, Operation.class);
         System.out.println(operates.size());
 
         String date=operates.get(0).getDate();
